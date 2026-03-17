@@ -13,7 +13,7 @@
 ---
 
 ## 🚀 Strategic Overview
-This project delivers a comprehensive **Employee Attrition & Retention Suite**. By transforming raw HR records into structured analytical models, this dashboard provides stakeholders with the visibility needed to identify attrition "hot zones," monitor workforce stability, and deploy data-driven retention strategies before turnover impacts the bottom line.
+This project delivers a comprehensive **Employee Attrition & Retention Suite**. By transforming raw HR records into structured analytical models, this dashboard provides stakeholders with the visibility needed to identify attrition "hot zones," monitor workforce stability, and deploy data-driven retention strategies.
 
 ### 🎯 Key Analytical Pillars
 | **Module** | **KPIs & Analytical Focus** |
@@ -43,7 +43,7 @@ This project delivers a comprehensive **Employee Attrition & Retention Suite**. 
 *Comprehensive analysis of workforce stability and employee turnover trends.*
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mayurlokmanwar-analyst/Employee-Attrition-Data-Analysis-Dashboard-in-Power-BI/main/Visuals/dashboard-preview.png" alt="Employee Attrition Dashboard Preview" width="900" style="border-radius: 10px; border: 2px solid #1b263b;">
+  <img src="./Visuals/Employee%20Attrition%20Data%20Analytics.png" alt="Employee Attrition Dashboard Preview" width="900" style="border-radius: 10px; border: 2px solid #1b263b;">
 </div>
 
 ---
@@ -60,6 +60,6 @@ This project delivers a comprehensive **Employee Attrition & Retention Suite**. 
 ```text
 Employee-Attrition-Analysis/
 ├── 📂 Data/                    # Anonymized HR datasets (CSV)
-├── 📂 Visuals/                 # Dashboard snapshots and KPI snapshots
+├── 📂 Visuals/                 # Dashboard snapshots (Employee Attrition Data Analytics.png)
 ├── 📄 Employee Attrition.pbix  # Core Power BI Interactive Dashboard
 └── 📄 README.md                # Project Documentation
