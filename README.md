@@ -43,7 +43,7 @@ This project delivers a comprehensive **Employee Attrition & Retention Suite**. 
 *Comprehensive analysis of workforce stability and employee turnover trends.*
 
 <div align="center">
-  <img src="./Visuals/Attrition Data Analytics.png" alt="Employee Attrition Dashboard Preview" width="900" style="border-radius: 10px; border: 2px solid #1b263b;">
+  <img src="./Employee%20Attrition%20Analysis%20Dashboard/Employee%20Attrition%20Data%20Analytics.png" alt="Employee Attrition Dashboard Preview" width="900" style="border-radius: 10px; border: 2px solid #1b263b;">
 </div>
 
 ---
