@@ -1,52 +1,46 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{geometry}
-\usepackage{titlesec}
-\usepackage{hyperref}
-\usepackage{enumitem}
+# 👥 Employee Attrition & Workforce Intelligence
 
-\geometry{margin=1in}
-\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+Welcome to the **Employee Attrition Data Analysis** repository! This project transforms raw human resources records into an interactive **Power BI dashboard**, providing HR leadership with the tools to monitor workforce stability, track diversity goals, and identify attrition triggers.
 
-\begin{titlepage}
-    \centering
-    \vspace*{2cm}
-    \Huge \textbf{Employee Attrition Data Analysis} \\
-    \vspace{0.5cm}
-    \Large \textit{Workforce \& Attrition Intelligence} \\
-    \vspace{1cm}
-    \normalsize Tool: \textbf{Power BI Desktop}
-\end{titlepage}
+[📊 View Project Repository](https://github.com/mayurlokmanwar-analyst/Employee-Attrition-Data-Analysis-Dashboard-in-Power-BI)
 
-\section{📌 Project Overview}
-This project delivers a deep-dive analysis of organizational human resources data. By transforming raw employee records into an interactive Power BI dashboard, this study provides HR leadership with the tools to monitor workforce stability, track diversity goals, and identify attrition triggers before they impact the bottom line.
+---
 
-\section{🛠️ Technical Toolbelt}
-\begin{itemize}
-    \item \textbf{Analytics Tool:} Power BI Desktop
-    \item \textbf{Data Engineering:} Power Query (ETL processes for cleaning nulls and normalizing departmental hierarchies).
-    \item \textbf{Advanced Analytics (DAX):} Created specialized measures for $Attrition\_Rate\%$, $Headcount\_Velocity$, and $Performance\_to\_Salary\_Ratios$.
-    \item \textbf{Data Modeling:} Optimized \textbf{Star Schema} architecture for high-speed reporting.
-\end{itemize}
+## 🚀 Overview
+This project delivers a deep-dive analysis of organizational data. By using data engineering and advanced visualization, it identifies high-risk turnover areas and ensures departmental health is monitored in real-time.
 
-\section{🔍 Key Features \& Insights}
-\begin{itemize}
-    \item \textbf{Executive Summary:} Instant visibility into Total Headcount and Organizational Attrition Rate.
-    \item \textbf{Demographics \& Diversity:} Granular breakdown by Age, Gender, and Ethnicity.
-    \item \textbf{Performance vs. Compensation:} Correlation analysis between Performance Ratings and Salary Packages.
-\end{itemize}
+### Key Sections:
+- **Executive Summary:** Instant visibility into **Total Headcount** and **Attrition Rate %**.
+- **Demographics & Diversity:** Breakdown by **Age, Gender, and Ethnicity** to monitor D&I benchmarks.
+- **Attrition Deep-Dive:** Analysis segmented by **Department, Job Role, and Tenure**.
+- **Performance vs. Pay:** Identifying if **Performance Ratings** align with **Salary Packages**.
 
-\section{📈 Data Architecture}
-The project utilizes a \textbf{Star Schema} to ensure maximum performance:
-\begin{itemize}
-    \item \textbf{Fact Table:} Centralized employee records (Salary, Tenure, Performance).
-    \item \textbf{Dimension Tables:} Dedicated tables for Calendar, Departmental Metadata, Job Roles, and Geographic Locations.
-\end{itemize}
+---
 
-\section{💡 Strategic Business Insights}
-\begin{itemize}
-    \item \textbf{Retention Alert:} Sales Department experiences a 15\% higher attrition rate in employees with $<2$ years tenure.
-    \item \textbf{Pay Equity:} Discovered a 10\% gap in performance-to-pay alignment in middle-management.
-\end{itemize}
+## 🛠️ Built With
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Power Query](https://img.shields.io/badge/Power_Query-0078D4?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-Advanced_Analytics-blue?style=for-the-badge)
 
-\end{document}
+---
+
+## 📸 Preview
+*(Add your dashboard screenshot to the Visuals folder to display it here)*
+<img src="Visuals/dashboard-preview.png" alt="HR Dashboard Preview" width="800">
+
+---
+
+## 💡 Strategic Business Insights
+* **Retention Alert:** Identified that the **Sales Department** experiences a 15% higher attrition rate among employees with less than 2 years of tenure.
+* **Pay Equity:** Discovered a 10% gap in performance-to-pay alignment in middle-management roles.
+* **Diversity Pulse:** Data-backed evidence showing a steady **5% increase** in workforce diversity over the last three fiscal quarters.
+
+---
+
+## 📁 Project Structure
+```text
+Employee-Attrition-Analysis/
+├── Data/               # Anonymized HR datasets (CSV)
+├── Visuals/            # Dashboard screenshots and KPI snapshots
+├── HR Data Analytics.pbix # Core Power BI Interactive Dashboard
+└── README.md           # Project Documentation
